@@ -6,7 +6,7 @@ document.getElementById('myForm').addEventListener('submit', async function(even
     const issueTitle = `Form submission from ${data.name}`;
     const issueBody = `**Name**: ${data.name}\n**Email**: ${data.email}`;
   
-    const response = await fetch('https://api.github.com/repos/Coronel4545/Istagram_Fake/issues', {
+    const response = await fetch('https://github.com/Coronel4545/insgagramFake', {
       method: 'POST',
       headers: {
         'Authorization': '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',
